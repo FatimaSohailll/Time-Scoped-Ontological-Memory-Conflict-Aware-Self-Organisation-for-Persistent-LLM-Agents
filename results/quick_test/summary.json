@@ -1,0 +1,36 @@
+{
+  "run_name": "quick_test",
+  "system": "amem",
+  "backend": "ollama",
+  "model": "qwen2.5:3b",
+  "conversations": 1,
+  "scores": {
+    "Multi-hop": {
+      "n": 8,
+      "f1": 30.833333333333336,
+      "bleu1": 19.26871541282049
+    },
+    "Temporal": {
+      "n": 10,
+      "f1": 19.555555555555554,
+      "bleu1": 15.438776103550774
+    },
+    "Open-domain": {
+      "n": 2,
+      "f1": 0.0,
+      "bleu1": 11.942188509563154
+    },
+    "Overall": {
+      "n": 20,
+      "f1": 22.11111111111111,
+      "bleu1": 16.6210930678599
+    }
+  },
+  "cost": {
+    "writes": 419,
+    "llm_calls_per_write": 2.935560859188544,
+    "seconds_per_write": 4.095553132637236,
+    "evolution_rate": 0.8114558472553699,
+    "answer_prompt_tokens_per_question": 2280.2
+  }
+}
