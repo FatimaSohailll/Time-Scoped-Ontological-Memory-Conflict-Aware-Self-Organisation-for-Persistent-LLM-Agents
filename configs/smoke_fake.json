@@ -1,0 +1,9 @@
+{
+  "run_name": "smoke_fake",
+  "system": "amem",
+  "backend": "fake",
+  "model": "fake",
+  "max_samples": 1,
+  "max_sessions": 2,
+  "max_questions": 10
+}

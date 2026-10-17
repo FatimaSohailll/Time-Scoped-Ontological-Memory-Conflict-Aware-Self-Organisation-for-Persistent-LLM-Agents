@@ -1,0 +1,7 @@
+{
+  "run_name": "amem_llama3.2-3b",
+  "system": "amem",
+  "backend": "ollama",
+  "model": "llama3.2:3b",
+  "retrieve_k": 10
+}
