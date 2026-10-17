@@ -1,0 +1,7 @@
+{
+  "run_name": "amem_gpt-4o-mini",
+  "system": "amem",
+  "backend": "openai",
+  "model": "gpt-4o-mini",
+  "retrieve_k": 10
+}

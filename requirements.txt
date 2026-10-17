@@ -1,0 +1,18 @@
+# A-Mem's code imports all of these at start-up
+numpy
+scikit-learn
+sentence-transformers
+torch
+transformers
+nltk
+rank-bm25
+litellm
+requests
+# LLM providers
+ollama
+openai
+# Our code
+pydantic>=2
+networkx
+tqdm
+pytest

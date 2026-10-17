@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.pytest_cache/
+# Run outputs: commit only summary.md / summary.json from finished runs
+results/*/memory_sample_*.sqlite
+results/*/sample_*.jsonl
+results/*/ops_sample_*.jsonl
