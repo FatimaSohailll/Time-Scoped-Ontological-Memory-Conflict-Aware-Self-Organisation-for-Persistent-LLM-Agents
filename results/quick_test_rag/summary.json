@@ -1,0 +1,36 @@
+{
+  "run_name": "quick_test_rag",
+  "system": "rag",
+  "backend": "ollama",
+  "model": "qwen2.5:3b",
+  "conversations": 1,
+  "scores": {
+    "Multi-hop": {
+      "n": 8,
+      "f1": 0.0,
+      "bleu1": 2.0833333333333335
+    },
+    "Temporal": {
+      "n": 10,
+      "f1": 21.666666666666668,
+      "bleu1": 18.75
+    },
+    "Open-domain": {
+      "n": 2,
+      "f1": 14.285714285714288,
+      "bleu1": 12.5
+    },
+    "Overall": {
+      "n": 20,
+      "f1": 12.261904761904761,
+      "bleu1": 11.458333333333334
+    }
+  },
+  "cost": {
+    "writes": 419,
+    "llm_calls_per_write": 0,
+    "seconds_per_write": 0.008643272708832011,
+    "evolution_rate": 0.0,
+    "answer_prompt_tokens_per_question": 693.9
+  }
+}
