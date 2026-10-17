@@ -1,0 +1,7 @@
+{
+  "run_name": "rag_qwen2.5-3b",
+  "system": "rag",
+  "backend": "ollama",
+  "model": "qwen2.5:3b",
+  "retrieve_k": 10
+}
